@@ -1,0 +1,326 @@
+@media (max-width:1200px){
+
+     .antifutures_items{
+        padding: 0 15px;
+    }
+}
+@media (max-width:1152px){
+    .items_text{
+        max-width: 380px;
+        height: auto;
+        min-height: 150px;
+        margin-bottom: 15px;
+    }
+    .text_title{
+        font-size: 25px;
+        line-height: 30px;
+        margin-left: 55px;
+    }
+    .music::before, .sport::before, .compas::before{
+
+        width: 40px;
+        height: 40px;
+        left: -50px;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 50%;
+    }
+    
+    .text_items{
+        margin: 10px 10px 10px 55px;
+    }
+    .link{
+        margin-left: 55px;
+    }
+    .items_image img{
+        max-width: 380px;
+        height: auto;
+    }
+    .antifutures_title{
+        margin: 0;
+    }
+    .antifutures_text{
+        margin: 0;
+    }
+    .page_inner-items{
+        justify-content: center;
+        margin: 0 25px;
+    }
+    .for_developrs, .for_designers {
+        margin: 0;
+        max-width: 800px;
+    }
+    .for_developrs{
+        margin-top: 25px;
+    }
+    .developers_title, .designers_title {
+        margin: 0;
+    }
+    .developers_items, .designers_items{
+        margin: 10px 0 10px 196px;
+    }
+    .developres_link{
+        height: auto;
+        margin-bottom: 40px;
+    }
+    .designers_link{
+         height: auto;
+        margin-bottom: 40px;
+    } 
+}
+
+
+@media (max-width:875px){
+    .container{
+        padding: 0 10px;
+    }
+    .menu ul li{
+        margin-right: 5px;
+    }
+    .menu ul li a{
+        padding: 8px 8px;
+    }
+    .create_accaunt a{
+        padding: 8px 8px;
+    }
+  
+}
+@media (max-width:800px){
+    .laptop{
+        display: none;
+    } 
+    .future_title{
+        padding: 20px 0 15px;
+        font-size: 40px;
+        line-height: 40px;
+        height: auto;
+        justify-content: center;
+    }
+    .links{
+        padding-bottom: 5px;
+        margin: 0;
+    }
+    .future_items{
+        display: flex;
+        flex-direction: column;
+        max-width: 95vw;
+    }
+    .items_text{
+        max-width: 100%;
+        margin-bottom: 18px;
+    }
+    .text_title{
+        margin: 10px 10px 10px 55px;
+    }
+    .text_items{
+        margin-top: 0;
+    }
+    .items_image{
+        text-align: center;
+    }
+    .items_image img{
+        max-width: 100%;
+        min-width: 300px;
+    }
+    .shopping_bag-inner{
+        height: auto;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .shopping_bag-text{
+        margin-left: 70px;
+    }
+    .shopping_bag-text::before{
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 70px;
+        height: 83px;
+        left: -71px;
+    }
+    .shopping_bag-title, .antifutures_title, .developers_text, .designers_text {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .shopping_bag-items, .antifutures_text{
+        margin: 0;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    span{
+        margin: 0;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .shopping_bag-link{
+        height: 50px;
+        margin: 10px auto;
+    }
+    .antifutures_title{
+        height: auto;
+    }
+    .antifutures_text{
+        height: auto;
+        margin: 10px 0;
+    }
+   
+    .antifuture_inner{
+        max-width: 280px;
+        height: auto;
+        margin-bottom: 15px;
+        margin-left: 5px;
+    }
+    .antifutute_inner-title, .antifuture_text{
+        font-size: 16px;
+        line-height: 19px;
+        margin-left: 60px;
+    }
+    .power_station::before, .garage::before, .camera::before, .arrow_horizontal::before, .transit_transfer::before, .nucler_satation::before {
+        left: -55px;
+    }
+    .developers_items, .designers_items{
+        font-size: 16px;
+        line-height: 21px;
+    }
+   
+    .footer_menu{
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: center;
+    }
+    .footer_menu ul{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .subscribe{
+        max-width: 550px;
+    }
+}
+
+@media (max-width:645px){
+    .antifutures_items{
+        justify-content: center;
+    }
+    .antifuture_inner{
+        max-width: 600px;
+    }
+}
+@media (max-width:565px){
+    .page_title{
+        margin: 10px 0;
+        /* min-height: 50px; */
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .future_title{
+        font-size: 30px;
+        line-height: 36px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .page_items{
+        margin: 6px 0 12px;
+    }
+    .page_inner{
+        font-size: 17px;
+        line-height: 21px;
+    }
+    .links a:first-child{
+        margin-right: 8px;
+    }
+    .links a{
+        max-width: 140px;
+        height: 30px;
+    }
+    .menu{
+        margin: 10px 0;
+    }
+    .menu ul{
+        display: none;
+    }
+    .menu_btn{
+        display: block;
+    }
+    .menu_bar{
+        width: 50px;
+        height: 50px;
+    }
+    .header_items{
+        align-items: flex-start;
+    }
+    .create_accaunt{
+        margin-top: 15px;
+    }
+    .header_items ul{
+        position: absolute;
+        left: 0;
+        right: 0;
+        display: block;
+        width: 100%;
+        background-color: #80688E;
+        z-index: 25;
+    }
+    .header_items ul li{
+        display: block;
+        width: 100%; 
+        margin: 0;
+        line-height: 40px;
+        border-top: 1px solid #fff;  
+        border-bottom: 1px solid #fff;   
+
+    }
+    .header_items ul li a{
+        color: #fff;
+        font-weight: 600;
+    }
+    .shopping_bag-text{
+        margin: 10px 15px 15px;
+        text-align: center;
+    }
+    .shopping_bag-text::before, .developers_text::before, .designers_text::before{
+        display: none;
+    }
+    .developers_text, .designers_text, .developers_items, .designers_items, .developres_link, .designers_link{
+        margin-left: 0;
+    }
+
+}
+@media (max-width:500px){
+    .text_items{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .text_title{
+        margin: 5px 5px 5px 55px;
+    }
+}
+@media (max-width:450px){
+    .text_items{
+        margin: 10px;
+    }
+    .link{
+        margin-left: 10px;
+    }
+    .shopping_bag-title{
+        font-size: 21px;
+        line-height: 23px;
+    }
+}
+
+@media (max-width:370px){
+    .social_link a img{
+        width: 30px;
+        height: 30px;
+    }
+    .logo {
+        padding: 10px 0;
+        height: 38px;
+    }
+    .logo a img{
+        width: 150px;
+        height: 38px;
+    }
+    .text_title{
+        height: auto;
+    }
+
+}
