@@ -3,8 +3,11 @@ body.style.backgroundColor = "#f2f2f2";
 window.addEventListener("DOMContentLoaded", () => {
   function recurcy(element) {
     element.childNodes.forEach((node) => {
-      console.log(node);
-      if (node.childNodes.length > 1) {
+      // console.log(node);
+      if (node.nodeName === "#text") {
+        return;
+      } else {
+        console.log(node);
         recurcy(node);
       }
     });
